@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		529034292AB03DDDBF0381BF /* Pods_ShareYourFavoriteRestaurant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C7558C58FDA6EE6E5A768 /* Pods_ShareYourFavoriteRestaurant.framework */; };
+		B07AB074240A6C6300CA5B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07AB073240A6C6300CA5B5F /* AppDelegate.swift */; };
+		B07AB076240A6C6300CA5B5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07AB075240A6C6300CA5B5F /* SceneDelegate.swift */; };
+		B07AB078240A6C6300CA5B5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07AB077240A6C6300CA5B5F /* ViewController.swift */; };
+		B07AB07B240A6C6300CA5B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07AB079240A6C6300CA5B5F /* Main.storyboard */; };
+		B07AB07D240A6C6500CA5B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07AB07C240A6C6500CA5B5F /* Assets.xcassets */; };
+		B07AB080240A6C6500CA5B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07AB07E240A6C6500CA5B5F /* LaunchScreen.storyboard */; };
+		B07AB088240A6E1700CA5B5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B07AB087240A6E1700CA5B5F /* GoogleService-Info.plist */; };
+		B07AB08A240A738A00CA5B5F /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07AB089240A738900CA5B5F /* AccessToken.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024A30E7A8AA6D7FE748C234 /* Pods-ShareYourFavoriteRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareYourFavoriteRestaurant.debug.xcconfig"; path = "Target Support Files/Pods-ShareYourFavoriteRestaurant/Pods-ShareYourFavoriteRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		28109002D230038E0C5EAF4E /* Pods-ShareYourFavoriteRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareYourFavoriteRestaurant.release.xcconfig"; path = "Target Support Files/Pods-ShareYourFavoriteRestaurant/Pods-ShareYourFavoriteRestaurant.release.xcconfig"; sourceTree = "<group>"; };
+		6F9C7558C58FDA6EE6E5A768 /* Pods_ShareYourFavoriteRestaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareYourFavoriteRestaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07AB070240A6C6300CA5B5F /* ShareYourFavoriteRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareYourFavoriteRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07AB073240A6C6300CA5B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B07AB075240A6C6300CA5B5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B07AB077240A6C6300CA5B5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B07AB07A240A6C6300CA5B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B07AB07C240A6C6500CA5B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B07AB07F240A6C6500CA5B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B07AB081240A6C6500CA5B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07AB087240A6E1700CA5B5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B07AB089240A738900CA5B5F /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B07AB06D240A6C6300CA5B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529034292AB03DDDBF0381BF /* Pods_ShareYourFavoriteRestaurant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EC03A68BC8215874E33658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C7558C58FDA6EE6E5A768 /* Pods_ShareYourFavoriteRestaurant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ECA0DB6A8490664DE360C7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				024A30E7A8AA6D7FE748C234 /* Pods-ShareYourFavoriteRestaurant.debug.xcconfig */,
+				28109002D230038E0C5EAF4E /* Pods-ShareYourFavoriteRestaurant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B07AB067240A6C6300CA5B5F = {
+			isa = PBXGroup;
+			children = (
+				B07AB072240A6C6300CA5B5F /* ShareYourFavoriteRestaurant */,
+				B07AB071240A6C6300CA5B5F /* Products */,
+				2ECA0DB6A8490664DE360C7C /* Pods */,
+				16EC03A68BC8215874E33658 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B07AB071240A6C6300CA5B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B07AB070240A6C6300CA5B5F /* ShareYourFavoriteRestaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B07AB072240A6C6300CA5B5F /* ShareYourFavoriteRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				B07AB073240A6C6300CA5B5F /* AppDelegate.swift */,
+				B07AB075240A6C6300CA5B5F /* SceneDelegate.swift */,
+				B07AB077240A6C6300CA5B5F /* ViewController.swift */,
+				B07AB079240A6C6300CA5B5F /* Main.storyboard */,
+				B07AB07C240A6C6500CA5B5F /* Assets.xcassets */,
+				B07AB07E240A6C6500CA5B5F /* LaunchScreen.storyboard */,
+				B07AB081240A6C6500CA5B5F /* Info.plist */,
+				B07AB087240A6E1700CA5B5F /* GoogleService-Info.plist */,
+				B07AB089240A738900CA5B5F /* AccessToken.swift */,
+			);
+			path = ShareYourFavoriteRestaurant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B07AB06F240A6C6300CA5B5F /* ShareYourFavoriteRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07AB084240A6C6500CA5B5F /* Build configuration list for PBXNativeTarget "ShareYourFavoriteRestaurant" */;
+			buildPhases = (
+				6A991F33D50EB40F421E1EC4 /* [CP] Check Pods Manifest.lock */,
+				B07AB06C240A6C6300CA5B5F /* Sources */,
+				B07AB06D240A6C6300CA5B5F /* Frameworks */,
+				B07AB06E240A6C6300CA5B5F /* Resources */,
+				3E0DB2442D5286C85505923B /* [CP] Embed Pods Frameworks */,
+				21C238D75C82FB306DCA087C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareYourFavoriteRestaurant;
+			productName = ShareYourFavoriteRestaurant;
+			productReference = B07AB070240A6C6300CA5B5F /* ShareYourFavoriteRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B07AB068240A6C6300CA5B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Naoki-Yuzu";
+				TargetAttributes = {
+					B07AB06F240A6C6300CA5B5F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B07AB06B240A6C6300CA5B5F /* Build configuration list for PBXProject "ShareYourFavoriteRestaurant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B07AB067240A6C6300CA5B5F;
+			productRefGroup = B07AB071240A6C6300CA5B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B07AB06F240A6C6300CA5B5F /* ShareYourFavoriteRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B07AB06E240A6C6300CA5B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07AB080240A6C6500CA5B5F /* LaunchScreen.storyboard in Resources */,
+				B07AB088240A6E1700CA5B5F /* GoogleService-Info.plist in Resources */,
+				B07AB07D240A6C6500CA5B5F /* Assets.xcassets in Resources */,
+				B07AB07B240A6C6300CA5B5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C238D75C82FB306DCA087C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShareYourFavoriteRestaurant/Pods-ShareYourFavoriteRestaurant-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShareYourFavoriteRestaurant/Pods-ShareYourFavoriteRestaurant-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShareYourFavoriteRestaurant/Pods-ShareYourFavoriteRestaurant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0DB2442D5286C85505923B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShareYourFavoriteRestaurant/Pods-ShareYourFavoriteRestaurant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShareYourFavoriteRestaurant/Pods-ShareYourFavoriteRestaurant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShareYourFavoriteRestaurant/Pods-ShareYourFavoriteRestaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A991F33D50EB40F421E1EC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareYourFavoriteRestaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B07AB06C240A6C6300CA5B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07AB078240A6C6300CA5B5F /* ViewController.swift in Sources */,
+				B07AB074240A6C6300CA5B5F /* AppDelegate.swift in Sources */,
+				B07AB076240A6C6300CA5B5F /* SceneDelegate.swift in Sources */,
+				B07AB08A240A738A00CA5B5F /* AccessToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B07AB079240A6C6300CA5B5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07AB07A240A6C6300CA5B5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B07AB07E240A6C6500CA5B5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07AB07F240A6C6500CA5B5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B07AB082240A6C6500CA5B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B07AB083240A6C6500CA5B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B07AB085240A6C6500CA5B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024A30E7A8AA6D7FE748C234 /* Pods-ShareYourFavoriteRestaurant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShareYourFavoriteRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naoki-yuzu.ShareYourFavoriteRestaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B07AB086240A6C6500CA5B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28109002D230038E0C5EAF4E /* Pods-ShareYourFavoriteRestaurant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShareYourFavoriteRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naoki-yuzu.ShareYourFavoriteRestaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B07AB06B240A6C6300CA5B5F /* Build configuration list for PBXProject "ShareYourFavoriteRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AB082240A6C6500CA5B5F /* Debug */,
+				B07AB083240A6C6500CA5B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07AB084240A6C6500CA5B5F /* Build configuration list for PBXNativeTarget "ShareYourFavoriteRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AB085240A6C6500CA5B5F /* Debug */,
+				B07AB086240A6C6500CA5B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B07AB068240A6C6300CA5B5F /* Project object */;
+}

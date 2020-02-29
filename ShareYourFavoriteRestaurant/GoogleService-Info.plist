@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>116475631547-scispm17nv8sr43aq99ohs6m3uelp063.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.116475631547-scispm17nv8sr43aq99ohs6m3uelp063</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAAB5cBJzovF1z_IFeJ3qG2lpF3djYR_gc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>116475631547</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.naoki-yuzu.ShareYourFavoriteRestaurant</string>
+	<key>PROJECT_ID</key>
+	<string>shareyourfavoriterestaurant</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shareyourfavoriterestaurant.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:116475631547:ios:11c5c0aa46d9c7a683d69e</string>
+	<key>DATABASE_URL</key>
+	<string>https://shareyourfavoriterestaurant.firebaseio.com</string>
+</dict>
+</plist>
